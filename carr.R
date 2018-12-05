@@ -7,8 +7,8 @@ library(rpart)
 library(rpart.plot)
 library(lift)
 library(StatMeasures)
-dataset_train=read.delim("C:\\Users\\vedant khandelwal\\Downloads\\Project_10\\Loans_Training", sep = ",", stringsAsFactor = TRUE)
-dataset_test=read.delim("C:\\Users\\vedant khandelwal\\Downloads\\Project_10\\Loans_Test", sep = ",", stringsAsFactor = TRUE)
+dataset_train=read.delim("C:\\Users\\Shubham\\Downloads\\Project_10\\Loans_Training", sep = ",", stringsAsFactor = TRUE)
+dataset_test=read.delim("C:\\Users\\Shubham\\Downloads\\Project_10\\Loans_Test", sep = ",", stringsAsFactor = TRUE)
 dataset_train$Approval=factor(dataset_train$Approval,
                               levels=c('FALSE','TRUE'),
                               labels=c(0,1))
